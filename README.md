@@ -19,7 +19,9 @@ docker run --rm -d -v $HOME:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:
   - 8888 para Jupyter Notebook
   - 4040 y 4041 para la interfaz web de Spark UI
 - Asigna el nombre pyspark al contenedor.
+- 
 Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
+
 🔗 [Visitar Jupyter](http://localhost:8888)
 🔑 Contraseña: Jupyter
 
