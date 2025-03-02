@@ -32,7 +32,7 @@ Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
 
 **docker run --rm -d -v <RUTA>:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala**
 
-#### 📌 **Explicación:**
+### 📌 **Explicación:**
 
 - Igual que en Linux/Mac, pero debes definir la ruta de tu directorio en <RUTA>, por ejemplo:  
 
