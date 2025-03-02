@@ -9,7 +9,8 @@ La imagen de PySpark utilizada en el curso cuenta con Apache Toree-Scala y está
 
 ### Instrucciones para GNU/Linux y MacOS
 Ejecuta el siguiente comando en la terminal:  
-docker run --rm -d -v $HOME:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala
+
+**docker run --rm -d -v $HOME:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala**
 
 📌 **Explicación:**
 
@@ -28,12 +29,14 @@ Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
 
 ### Instrucciones para Windows
 Ejecuta el siguiente comando en PowerShell o CMD, reemplazando <RUTA> por la ruta de tu directorio de trabajo:  
-docker run --rm -d -v <RUTA>:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala
 
-📌 **Explicación:**
+**docker run --rm -d -v <RUTA>:/home/jovyan/work -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala**
 
-Igual que en Linux/Mac, pero debes definir la ruta de tu directorio en <RUTA>, por ejemplo:
-docker run --rm -d -v "C:/Users/Rossella/Escritorio/Proyecto Spark-Scala:/home/jovyan/work" -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala
+📌 #### **Explicación:**
+
+Igual que en Linux/Mac, pero debes definir la ruta de tu directorio en <RUTA>, por ejemplo:  
+
+**docker run --rm -d -v "C:/Users/Rossella/Escritorio/Proyecto Spark-Scala:/home/jovyan/work" -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala**
 
 Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
 🔗 [Visitar Jupyter](http://localhost:8888)
@@ -42,7 +45,8 @@ Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
 
 ### Detener el Contenedor en Cualquier Plataforma
 Para detener el contenedor ejecuta:  
-docker stop pyspark
+
+**docker stop pyspark**
 
 
 
