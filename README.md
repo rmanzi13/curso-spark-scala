@@ -38,8 +38,9 @@ La imagen de PySpark utilizada en el curso cuenta con Apache Toree-Scala y está
 
 **docker run --rm -d -v "C:/Users/Rossella/Escritorio/Proyecto Spark-Scala:/home/jovyan/work" -p 8888:8888 -p 4040:4040 -p 4041:4041 --name pyspark josechval/pythonista-pyspark-scala**
 
-### Para acceder a Jupyter Notebook, abre un navegador y dirígete a:
-🔗 [Visitar Jupyter](http://localhost:8888)
+### Para acceder a Jupyter Notebook, abre un navegador y dirígete a:  
+
+🔗 [Visitar Jupyter](http://localhost:8888)  
 🔑 Contraseña: Jupyter  
 
 
